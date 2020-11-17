@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--=============================================== 
+    Template Design By WpFreeware Team.
+    Author URI : http://www.wpfreeware.com/
+    ====================================================-->
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>WpF Medinova : Blog</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+
+    <!-- CSS
+    ================================================== -->       
+    {% include '../layouts/_styles.html' %}
+    
+  </head>
+  <body>    
+    {% include '../layouts/_preloader.html' %}
+    {% include '../layouts/_header.html' %}
+    {% include '../layouts/_blog_archive.html' %}
+    {% include '../layouts/_footer.html' %}
+
+
+    {% include '../layouts/_scripts.html' %}
+
+  </body>
+</html>

@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--=============================================== 
+    Template Design By WpFreeware Team.
+    Author URI : http://www.wpfreeware.com/
+    ====================================================-->
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>WpF Medinova : 404</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+
+    <!-- CSS
+    ================================================== -->       
+    {% include '../layouts/_styles.html' %}
+
+  </head>
+  <body>    
+    {% include '../layouts/_preloader.html' %}
+    {% include '../layouts/_header.html' %}
+
+    {% block content %}
+    
+   
+    <section id="blogArchive">      
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="blog-breadcrumbs-area">
+            <div class="container">
+              <div class="blog-breadcrumbs-left">
+                <h2>Error Page</h2>
+              </div>
+              <div class="blog-breadcrumbs-right">
+                <ol class="breadcrumb">
+                  <li>You are here</li>
+                  <li><a href="#">Home</a></li>                  
+                  <li class="active">404</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>      
+    </section>
+    <section id="errorPage">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="error-page-area">
+              <h1>404</h1>
+              <h3>Error</h3>
+              <h5>Ahhhhhhhhhhh! This page doesn't exist</h5>
+              <p>Not to worry. You can either go back to our homepage</p>
+              <div class="readmore_area">
+                <a data-hover="Back To Home" href="#"><span>Back To Home</span></a>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock content %}
+
+    {% include '../layouts/_footer.html' %}
+
+    {% include '../layouts/_scripts.html' %}
+
+     
+  </body>
+</html>

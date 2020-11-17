@@ -1,0 +1,7 @@
+/db.sqlite3
+/env
+/manage.py
+/.vscode
+/ORIGINAL
+/app/__pycache__
+/pages/__pycache__
